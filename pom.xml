@@ -26,6 +26,7 @@
         <testng.version>7.8.0</testng.version>
         <junit-jupiter-api.version>5.10.0</junit-jupiter-api.version>
         <selenide.version>6.18.0</selenide.version>
+        <webdrivermanager.version>5.4.1</webdrivermanager.version>
     </properties>
 
     <dependencyManagement>
@@ -36,6 +37,12 @@
                 <groupId>com.codeborne</groupId>
                 <artifactId>selenide</artifactId>
                 <version>${selenide.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>io.github.bonigarcia</groupId>
+                <artifactId>webdrivermanager</artifactId>
+                <version>${webdrivermanager.version}</version>
             </dependency>
 
             <dependency>
